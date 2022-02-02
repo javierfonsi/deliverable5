@@ -1,0 +1,221 @@
+.container-login{
+  display: flex; 
+  flex-direction: column; 
+}
+
+
+section{
+  padding: 1px;
+}
+
+.container-login .title{
+    justify-content: center;
+    text-align: center;
+    border: 2px solir black;
+    background-color: rgb(0, 88, 178);
+    color: white;
+    padding: 30px;
+    font-size: 2.5rem;
+    
+}
+
+.img-left img{
+  width: 50%;
+  margin-left: 50px;  
+}
+
+.form img{
+    top: 25%;
+    width: 20%;
+    position: absolute;
+    margin-left: 950px;
+    transition: .5s;
+}
+
+.form button img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 9%;
+    width: 50px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    background: #40ff2f;
+    color: #fff;
+    transition: .5s;
+}
+
+form label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+label input{
+  margin-top: 15px;
+}
+
+input{
+    width: 40%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 19px;
+    color: grey;
+    box-shadow: -10px -10px 15px rgb(58 58 58 / 9%), 10px 10px 15px rgb(66 66 66 / 35%);
+    transition: .5s;
+    padding: 10px 55px 10px 15px;
+    height: 50px;
+}
+
+@media (max-width:1043px) {
+    
+    .form img{
+      top: 25%;
+      width: 17%;
+      position: absolute;
+      margin-left: 850px;
+  }
+}
+
+@media (max-width:990px) {
+    
+  .form img{
+    top: 25%;
+    width: 17%;
+    position: absolute;
+    margin-left: 800px;
+}
+}
+
+@media (max-width:900px) {
+    .form img{
+      top: 25%;
+      width: 17%;
+      position: absolute;
+      margin-left: 750px;
+  }
+}
+
+@media (max-width:850px) {
+  .container-login{
+    display: flex; 
+    flex-direction: column; 
+  }
+  .form img{
+    top: 25%;
+    width: 20%;
+    position: absolute;
+    margin-left: 250px;
+    display: none;
+}
+  input{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.img-left img{
+  width: 80%;      
+}
+
+form label{
+  margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+    .form img{
+      top: 25%;
+      width: 17%;
+      position: absolute;
+      margin-left: 750px;
+    }
+} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container-login{
+  background-image: url("https://get.wallhere.com/photo/illustration-cartoon-Pok-mon-Pikachu-Pokemon-First-Generation-Toy-Charizard-Red-character-Blastoise-187493.jpg");
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-end;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.container-login>h1{
+  padding-top: 2vh;
+  padding-right: 5vw;
+}
+
+.label{
+  padding-top: 10px;
+  display: flex;
+  align-items: start;
+  width: 22vw;
+}
+
+.container-login>img{
+  height: 50vh;
+  padding-top: 2vh;
+  padding-right: 5vw;
+}
+
+.label>input{
+  height: 6vh;
+  padding-right: 9px;
+  border: none;
+  box-shadow: 3px 3px 20px #93D6DC;
+  width: 18vw;
+  right: 30px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.btn-send{
+  border:none;
+
+  height: 6vh;
+  border-radius: 11px;
+  background-color: #6c6eecef;
+
+  align-items: center;
+}
+.btn-send>img{
+  height: 6vh; 
+}*/
